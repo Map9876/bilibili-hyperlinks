@@ -1,4 +1,4 @@
-bilibili-hyperlinks
+# bilibili-hyperlinks
  
 b站内，发任意网站链接，的简易方法 2026年4月9日可用
  
@@ -10,12 +10,12 @@ http://d.bilibili.com/?preUrl=bilibili://game_center/game_jump?url=[链接]&sche
  
 备注
  
--  [链接]  直接填写原始网址即可，无需 URL 编码
-- 两处  [链接]  必须填写相同的目标地址
+-  `[链接]`  直接填写原始网址即可，无需 URL 编码
+- 两处  `[链接]`  必须填写相同的目标地址
  
 示例（百度）
  
-原链接： https://www.baidu.com 
+原链接： `https://www.baidu.com` 
  
 生成后完整链接
  
@@ -23,3 +23,11 @@ http://d.bilibili.com/?preUrl=bilibili://game_center/game_jump?url=https://www.b
  
 来源:
 ![bili_poster](bili_poster-1775714668308.png)
+
+
+
+
+## 跳转任意网站的url schemes
+在alook浏览器打开上述网站，会显示跳转到b站任意网站的url schemes链接为 
+`bilibili://game_center/game_jump?url=https://www.baidu.com`
+
